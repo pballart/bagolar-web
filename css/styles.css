@@ -417,6 +417,19 @@ h2, p {
     .app-mockup i {
         font-size: 3rem;
     }
+    
+    /* Mobile spacing for app cards */
+    .app-card .row .col-md-6:first-child {
+        margin-bottom: 2rem;
+    }
+    
+    .app-card .row .col-md-6:last-child {
+        margin-top: 1rem;
+    }
+    
+    .app-links {
+        margin-top: 1.5rem;
+    }
 }
 
 /*
