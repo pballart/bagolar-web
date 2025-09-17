@@ -264,3 +264,49 @@ h2, p {
 .footerLinks a {
     color: rgba(255, 255, 255, 1) !important;
 }
+
+/*
+*
+* ===========================================================
+*     TERMS & CONDITIONS PAGE
+* ===========================================================
+*
+*/
+
+/* Ensure all text is white on black background */
+.container h1,
+.container h2,
+.container h3,
+.container h4,
+.container h5,
+.container h6,
+.container p,
+.container li,
+.container ol,
+.container ul,
+.container a,
+.container strong {
+    color: white !important;
+}
+
+/* Make links more visible */
+.container a {
+    color: #ff8000 !important;
+    text-decoration: underline;
+}
+
+.container a:hover {
+    color: #ffa500 !important;
+}
+
+/* Ensure ordered and unordered lists are white */
+.container ol li,
+.container ul li {
+    color: white !important;
+}
+
+/* Make sure strong/bold text is white */
+.container strong {
+    color: white !important;
+    font-weight: bold;
+}
